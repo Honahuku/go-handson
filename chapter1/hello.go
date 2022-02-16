@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Println(123*45)
+	fmt.Print("123 * 45 = ")
+	fmt.Println(123 * 45)
 }
