@@ -1,3 +1,3 @@
 module module_hello
 
-go 1.15
+go 1.17
