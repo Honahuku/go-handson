@@ -13,6 +13,6 @@ func main() {
 	taro := new(Mydata)
 	fmt.Println(taro)
 	taro.Name = "Taro"
-	taro.Data = make([]int, 5, 5)
+	taro.Data = make([]int, 5)
 	fmt.Println(taro)
 }
