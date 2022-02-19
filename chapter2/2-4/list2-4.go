@@ -16,7 +16,7 @@ func main() {
 	fmt.Print(x + "は、")
 	if n%2 == 0 {
 		fmt.Println("偶数です。")
-	}else {
+	} else {
 		fmt.Println("奇数です。")
 	}
 }

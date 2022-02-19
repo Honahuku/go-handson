@@ -15,9 +15,9 @@ func main() {
 		return
 	}
 	switch {
-		case n%2 == 0:
-			fmt.Println("偶数です。")
-		case n%2 == 1:
-			fmt.Println("奇数です。")
+	case n%2 == 0:
+		fmt.Println("偶数です。")
+	case n%2 == 1:
+		fmt.Println("奇数です。")
 	}
 }
