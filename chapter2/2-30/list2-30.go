@@ -8,5 +8,5 @@ func main() {
 	n := 123
 	b := true
 	s := "hello"
-	fmt.Print("number:%d, bool:%t, string:%s.", n, b, s)
+	fmt.Printf("number:%d, bool:%t, string:%s.", n, b, s)
 }
