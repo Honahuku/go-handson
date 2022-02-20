@@ -15,7 +15,7 @@ func main() {
 		[]int{10, 20, 30},
 	}
 	fmt.Println(taro)
-	taro = rev(taro)
+	taro = rev(taro) // 構造体へ値渡しを行う。値を引数で普通に渡しているので構造体がコピーされる。
 	fmt.Println(taro)
 }
 

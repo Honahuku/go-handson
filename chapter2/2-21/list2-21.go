@@ -11,6 +11,6 @@ func main() {
 		"c": 300,
 	}
 	for k, v := range m {
-		fmt.Println(k + ":", v)
+		fmt.Println(k+":", v)
 	}
 }

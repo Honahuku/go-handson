@@ -15,7 +15,7 @@ func main() {
 		[]int{10, 20, 30},
 	}
 	fmt.Println(taro)
-	rev(&taro)
+	rev(&taro) //構造体へ値を参照渡しする。構造体はコピーされない。
 	fmt.Println(taro)
 }
 

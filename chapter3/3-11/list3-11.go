@@ -9,6 +9,7 @@ type Mydata struct {
 	Data []int
 }
 
+// Mydataにメソッド(構造体に組み込む関数のこと)を追加する
 func (md Mydata) PrintData() {
 	fmt.Println("*** Mydata ***")
 	fmt.Println("Name: ", md.Name)

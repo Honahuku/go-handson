@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// typeで構造体の型を指定する。
+// typeを指定することで同じような構造体を複数宣言することが簡単になる。
 type Mydata struct {
 	Name string
 	Data []int
