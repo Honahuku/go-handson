@@ -1,10 +1,9 @@
 # go-handson
 
 掌田津耶乃著Go言語ハンズオンのリポジトリです。
-自分なりに書いたコード置き場です。
+サンプルコードを実行可能な状態で置いています。
 
-- ohege
-
-## hoega
-
-adwdaw
+```
+OS : WSL Ubuntu 20.04.3 LTS
+Go version : 1.17.7
+```
